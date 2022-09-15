@@ -4,3 +4,5 @@ function namify(users) {
       //.filter(({names}) => names === names)
       .map(({ name }) => name);
   }
+
+  //test comment
