@@ -1,3 +1,8 @@
 function namify(users) {
-  // ваш код...
-}
+    // ваш код...
+    return users
+      //.filter(({names}) => names === names)
+      .map(({ name }) => name);
+  }
+
+  //test comment
